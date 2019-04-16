@@ -19,11 +19,27 @@
 }
 
 .header-title {
-    @apply text-white leading-loose font-hairline text-3xl;
+    @apply text-white leading-loose font-hairline text-3xl text-white no-underline
 }
 
-.bold {
-    @apply font-bold
+.header-title:hover {
+    @apply text-grey 
+}
+
+.header-ul {
+    @apply list-reset flex
+}
+
+.header-li {
+    @apply mr-6
+}
+
+.navlinks {
+    @apply text-white no-underline
+}
+
+.navlinks:hover {
+    @apply text-grey
 }
 
 /** Footer **/
