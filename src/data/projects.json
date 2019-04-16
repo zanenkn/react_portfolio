@@ -1,10 +1,20 @@
 [
     {
         "id": 1,
-        "name": "My First Website"
+        "name": "BMI Calculator",
+        "image": "https://images.unsplash.com/photo-1457904375453-3e1fc2fc76f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+        "description": "This was me first dipping my toes into the ocean of Javascript. It ain't pretty but it works!"
     },
     {
         "id": 2,
-        "name": "FizzBuzz"
+        "name": "Address Book",
+        "image": "https://images.unsplash.com/photo-1522448053768-3b5ffd05c2f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+        "description": "A simple address book that stores the information in your computer's local storage. Loads of JavaScript and a touch of Tailwind CSS styling."
+    },
+    {
+        "id": 3,
+        "name": "FizzBuzz",
+        "image": "https://images.unsplash.com/photo-1532244461438-ccf49dde8fce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+        "description": "I would prefer a weekend with GinFizz over a weekend with FizzBuzz to be totally honest with you but, all things considered, I think it turned out alright! JavaScript and Tailwind, shaken not stirred."
     }
 ]
