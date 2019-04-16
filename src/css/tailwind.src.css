@@ -22,6 +22,10 @@
     @apply text-white leading-loose font-hairline text-3xl;
 }
 
+.bold {
+    @apply font-bold
+}
+
 /** Footer **/
 .footer-wrapper {
     @apply border-t px-8 py-4;
@@ -39,3 +43,4 @@
 .content-text {
     @apply text-grey-dark
 }
+
