@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import axios from "axios"
 
 // const Projects = () => {
 //     return (
@@ -13,17 +14,17 @@ class Projects extends Component {
     constructor() {
         super();
         this.state={
-            projects: [
-                {
-                    "id": 1,
-                    "name": "My First Website"
-                },
-                {
-                    "id": 2,
-                    "name": "FizzBuzz"
-                }
-            ]
+            projects: []
         };
+    }
+
+    componentDidMount(){
+        axios.get('./src/data/projects.json')
+        .then(response => {
+            this.setState({
+                projects: response.data
+            })
+        })
     }
 
     render() {
