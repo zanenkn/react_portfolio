@@ -48,7 +48,7 @@ class Projects extends Component {
             <div className="projects-box">
             <div className="intro-wrapper">
                 <div className="illustration-wrapper">
-                <UndrawCreativity primaryColor='#6F213F' height='200px'/>
+                <UndrawCreativity primaryColor='#019ebd' height='200px'/>
                 </div>
                 <div className="text-wrapper">
                     <h1>My Projects</h1>

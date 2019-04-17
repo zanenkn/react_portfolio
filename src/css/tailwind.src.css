@@ -15,38 +15,38 @@
 
 /** Header **/
 .header-wrapper {
-    @apply flex items-center justify-between flex-wrap bg-pink-darker p-8;
+    @apply flex items-center justify-between flex-wrap bg-grey-light py-12 px-8;
 }
 @screen sm {
     .header-wrapper {
-      @apply p-8;
+      @apply px-8 py-6;
     }
 }
 
 @screen md {
     .header-wrapper {
-      @apply p-8;
+      @apply px-8 py-6;
     }
 }
 
 @screen lg {
     .header-wrapper {
-      @apply p-10;
+      @apply px-10 py-16;
     }
 }
 
 @screen xl {
     .header-wrapper {
-      @apply p-20;
+      @apply px-20 py-16;
     }
 }
 
 .header-title {
-    @apply text-white leading-loose font-hairline text-3xl text-white no-underline;
+    @apply text-white leading-loose font-hairline text-5xl text-zanes no-underline;
 }
 
 .header-title:hover {
-    @apply text-grey; 
+    @apply font-bold; 
 }
 
 .header-ul {
@@ -62,17 +62,9 @@
 }
 
 .navlinks:hover {
-    @apply text-grey;
+    @apply text-zanes;
 }
 
-/** Footer **/
-.footer-wrapper {
-    @apply border-t px-8 py-4;
-}
-
-.footer-content {
-    @apply flex justify-center text-grey;
-}
 
 /** Content section **/
 .content-wrapper {
@@ -160,7 +152,7 @@
 }
 
 .project-card-wrapper {
-    @apply overflow-hidden border m-4;
+    @apply overflow-hidden border;
 }
 
 @screen md {
@@ -208,10 +200,28 @@
   }
 
 .button {
-    @apply bg-blue-darkest text-white text-xs py-1 px-2 rounded-full;
+    @apply bg-zanes text-white text-xs py-1 px-2 rounded-full;
 }
 
 .button:hover {
     @apply bg-blue-dark;
 }
 
+/** Footer **/
+.footer-wrapper {
+    @apply border-t px-8 py-4;
+}
+
+.footer-content {
+    @apply flex justify-center text-grey;
+}
+
+
+
+.link {
+    @apply no-underline text-grey;
+}
+
+.link:hover {
+    @apply text-zanes;
+}
