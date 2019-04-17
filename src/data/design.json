@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Lindex Kids campaign",
+        "image": "src/img/kids_gif1.gif",
+        "description": "A sweet little project for Lindex Kids, showing off them fresh spring pieces and reminding the customer that fashion is fun!"
+    },
+    {
+        "id": 2,
+        "name": "Fashion campaign",
+        "image": "src/img/flirty_1.png",
+        "description": "Lorem ipsum trendy bohemian pieces, fashion, yay."
+    },
+    {
+        "id": 3,
+        "name": "Radisson events",
+        "image": "src/img/radisson_1.png",
+        "description": "Lorem ipsum hotel vintage brochure, what else there is to say, you have eyes, look at it."
+    }
+]
