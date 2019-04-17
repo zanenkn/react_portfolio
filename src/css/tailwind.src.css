@@ -100,6 +100,10 @@
     @apply text-grey-dark;
 }
 
+.content-quote {
+    @apply text-grey-dark text-2xl italic font-hairline
+}
+
 /** Project page **/
 
 .projects-box {
@@ -115,7 +119,7 @@
 }
 
 .text-wrapper {
-    @apply w-full;
+    @apply w-full self-center;
 }
 
 
