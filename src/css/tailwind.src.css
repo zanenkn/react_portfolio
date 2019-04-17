@@ -130,6 +130,7 @@
 }
 
 
+/** Project card **/
 .project-card-box-wrapper {
     @apply overflow-hidden w-full;
 }
@@ -159,7 +160,7 @@
 }
 
 .project-card-wrapper {
-    overflow-hidden border-grey m-4;
+    @apply overflow-hidden border m-4;
 }
 
 @screen md {
@@ -180,8 +181,21 @@
     }
 }
 
+.project-card-img {
+    @apply block h-64 w-full
+}
 
-/** Project card **/
+.project-card-text {
+    @apply px-6 py-4
+}
+
+.project-card-header {
+    @apply font-bold text-xl mb-2
+}
+
+.project-card-paragraph {
+    @apply text-grey-darker text-base
+}
 
 .button-wrapper {
     @apply flex items-center justify-between leading-none p-2;

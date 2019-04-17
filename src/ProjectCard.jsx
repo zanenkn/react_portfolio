@@ -6,14 +6,14 @@ const ProjectCard = (props) => {
     return(
         <div key={project.id} className="project-card-wrapper">
 
-            <img src={project.image} className="block h-64 w-full" style={{ height: '150 px', objectFit: 'cover' }} />
+            <img src={project.image} className="project-card-img" style={{ height: '150 px', objectFit: 'cover' }} />
 
-            <div className="px-6 py-4" style={{ minHeight: '150px' }}>
-                <div className="font-bold text-xl mb-2">
+            <div className="project-card-text" style={{ minHeight: '150px' }}>
+                <div className="project-card-header">
                     {project.name}
                 </div>
                 
-                <p className="text-grey-darker text-base">
+                <p className="project-card-paragraph">
                     {project.description}
                 </p>
             </div>
