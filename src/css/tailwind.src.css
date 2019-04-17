@@ -19,27 +19,27 @@
 }
 
 .header-title {
-    @apply text-white leading-loose font-hairline text-3xl text-white no-underline
+    @apply text-white leading-loose font-hairline text-3xl text-white no-underline;
 }
 
 .header-title:hover {
-    @apply text-grey 
+    @apply text-grey; 
 }
 
 .header-ul {
-    @apply list-reset flex
+    @apply list-reset flex;
 }
 
 .header-li {
-    @apply mr-6
+    @apply mr-6;
 }
 
 .navlinks {
-    @apply text-white no-underline
+    @apply text-white no-underline;
 }
 
 .navlinks:hover {
-    @apply text-grey
+    @apply text-grey;
 }
 
 /** Footer **/
@@ -57,6 +57,26 @@
 }
 
 .content-text {
-    @apply text-grey-dark
+    @apply text-grey-dark;
+}
+
+/** Project card **/
+
+.button-wrapper {
+    @apply flex items-center justify-between leading-none p-2;
+}
+
+@screen md {
+    .button-wrapper {
+      @apply p-4;
+    }
+  }
+
+.button {
+    @apply bg-blue-darkest text-white text-xs py-1 px-2 rounded-full;
+}
+
+.button:hover {
+    @apply bg-blue-dark;
 }
 
