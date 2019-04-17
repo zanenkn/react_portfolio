@@ -5,8 +5,10 @@ import Header from "./Header"
 import Footer from "./Footer"
 import './css/tailwind.css'
 import { BrowserRouter } from "react-router-dom"
-import Projects from "./Projects"
 import About from "./About"
+import Projects from "./Projects"
+import Design from "./Design"
+import Contact from "./Contact"
 import { Switch, Route } from "react-router-dom"
 
 const App = () => {
@@ -19,6 +21,8 @@ const App = () => {
                         <Route exact path='/' component={Hello}></Route>
                         <Route exact path='/about' component={About}></Route>
                         <Route exact path='/projects' component={Projects}></Route>
+                        <Route exact path='/design' component={Design}></Route>
+                        <Route exact path='/contact' component={Contact}></Route>
                     </Switch>
                 </div>
                 <Footer />
