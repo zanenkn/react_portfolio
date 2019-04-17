@@ -125,8 +125,38 @@
     @apply w-3/4;
 }
 
+.project-list-wrapper {
+    @apply flex flex-wrap;  
+}
 
 
+.project-card-box-wrapper {
+    @apply overflow-hidden w-full;
+}
+
+@screen sm {
+    .project-card-box-wrapper {
+      @apply w-full;
+    }
+}
+
+@screen md {
+    .project-card-box-wrapper {
+      @apply w-1/2;
+    }
+}
+
+@screen lg {
+    .project-card-box-wrapper {
+      @apply w-1/3;
+    }
+}
+
+@screen xl {
+    .project-card-box-wrapper {
+      @apply w-1/3;
+    }
+}
 
 
 /** Project card **/

@@ -37,7 +37,7 @@ class Projects extends Component {
         if(projects.length>0) {
             projectsList = projects.map(project => {
                 return (
-                    <div key={project.id} className="min-h-900 my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                    <div key={project.id} className="project-card-box-wrapper">
                         <ProjectCard project={project} />
                     </div>
                 )
@@ -57,7 +57,7 @@ class Projects extends Component {
 
             </div>
 
-            <div className="flex flex-wrap -mx-1 lg:-mx-4">
+            <div className="project-list-wrapper">
                 {projectsList}
             </div>
         </div>
