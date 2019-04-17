@@ -14,8 +14,31 @@
 }
 
 /** Header **/
-.header {
-    @apply flex items-center justify-between flex-wrap bg-pink-darker p-6;
+.header-wrapper {
+    @apply flex items-center justify-between flex-wrap bg-pink-darker p-8;
+}
+@screen sm {
+    .header-wrapper {
+      @apply p-8;
+    }
+}
+
+@screen md {
+    .header-wrapper {
+      @apply p-8;
+    }
+}
+
+@screen lg {
+    .header-wrapper {
+      @apply p-10;
+    }
+}
+
+@screen xl {
+    .header-wrapper {
+      @apply p-20;
+    }
 }
 
 .header-title {
@@ -53,12 +76,58 @@
 
 /** Content section **/
 .content-wrapper {
-    @apply px-4 pt-4 flex-1 overflow-y-scroll;
+    @apply px-8 flex-1 overflow-y-scroll;
+}
+
+@screen sm {
+    .content-wrapper {
+      @apply p-8;
+    }
+}
+
+@screen md {
+    .content-wrapper {
+      @apply p-8;
+    }
+}
+
+@screen lg {
+    .content-wrapper {
+      @apply p-10;
+    }
+}
+
+@screen xl {
+    .content-wrapper {
+      @apply p-20;
+    }
 }
 
 .content-text {
     @apply text-grey-dark;
 }
+
+/** Project page **/
+
+.projects-box {
+    @apply flex-1 overflow-y-scroll;
+}
+
+.intro-wrapper {
+    @apply flex mb-4;
+}
+
+.illustration-wrapper {
+    @apply w-1/4;
+}
+
+.text-wrapper {
+    @apply w-3/4;
+}
+
+
+
+
 
 /** Project card **/
 

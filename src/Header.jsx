@@ -4,7 +4,7 @@ import './css/tailwind.css'
 
 const Header = () => {
     return(
-        <nav className="header">
+        <nav className="header-wrapper">
             <Link className="header-title" to='/'>My Portfolio</Link>
             <ul className="header-ul">
                 <li className="header-li"><NavLink className="navlinks" activeStyle={{fontWeight: 'bold'}} to='/about'>About Me</NavLink></li>
