@@ -158,6 +158,28 @@
     }
 }
 
+.project-card-wrapper {
+    overflow-hidden border-grey m-4;
+}
+
+@screen md {
+    .project-card-wrapper {
+      @apply m-4;
+    }
+}
+
+@screen lg {
+    .project-card-wrapper {
+      @apply m-4;
+    }
+}
+
+@screen xl {
+    .project-card-wrapper {
+      @apply m-4;
+    }
+}
+
 
 /** Project card **/
 
