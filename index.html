@@ -10,11 +10,21 @@
     </head>
 
     <body>
+
+        <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+            <input type="text" name="name" />
+            <input type="email" name="email" />
+            <textarea name="message"></textarea>
+        </form>
+        
         <div id="app"></div>
+
         <noscript>
             You need to enable JavaScript to run this React application.
         </noscript>
+        
         <script src="dist/bundle.js"></script> 
+    
     </body>
 
 </html>
