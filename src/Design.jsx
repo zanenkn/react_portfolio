@@ -41,10 +41,11 @@ class Design extends Component {
                     <p className="content-text">Starting off as an exclusively print focused graphic designer ten years ago and ending up passionate about all things digital and responsive. It's been a wild ride! Check out some of my favourite gigs.</p>
                 </div>
 
-            <div className="project-list-wrapper">
-                {designList}
+                <div className="project-list-wrapper">
+                    {designList}
+                </div>
+                
             </div>
-        </div>
 
         )
     }

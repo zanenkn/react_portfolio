@@ -14,13 +14,12 @@ const Contact = () => {
                 }
                 {!success &&
                     <div>
-                    <input type='text' name='name' required />
-                    <input type='email' name='email' required />
-                    <textarea name='message' required />
-                    <button>Submit</button>
+                        <input type='text' name='name' required />
+                        <input type='email' name='email' required />
+                        <textarea name='message' required />
+                        <button>Submit</button>
                     </div>
                 }
-
             </div>
         )}
     </NetlifyForm>

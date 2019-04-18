@@ -101,7 +101,7 @@
 }
 
 .content-quote {
-    @apply text-grey-dark text-2xl italic font-hairline
+    @apply text-grey-dark text-2xl italic my-6 font-hairline
 }
 
 /** Project page **/
@@ -115,7 +115,7 @@
 }
 
 .illustration-wrapper {
-    @apply w-full;
+    @apply w-full flex justify-center;
 }
 
 .text-wrapper {
