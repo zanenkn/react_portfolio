@@ -1,9 +1,29 @@
-import React, { Component } from "react"
+import React from "react"
 
 const Contact = () => {
     return (
-        <p className="content-text">Contact me</p>
+        <div>
+            
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                    <label>Your Name: <input type="text" name="name" /></label>   
+                </p>
+                <p>
+                    <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+                
+                <p>
+                    <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+            </form>
+
+        </div>        
     )
+    
 }
+
 
 export default Contact
