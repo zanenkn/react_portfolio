@@ -2,9 +2,8 @@ import React from "react"
 
 const Contact = () => {
     return (
-        <div>
-            
-            <form name="contact" method="POST" data-netlify="true">
+        
+            <form className="contact" method="POST" data-netlify="true">
                 <p>
                     <label>Your Name: <input type="text" name="name" /></label>   
                 </p>
@@ -19,11 +18,8 @@ const Contact = () => {
                     <button type="submit">Send</button>
                 </p>
             </form>
-
-        </div>        
-    )
-    
+              
+    )    
 }
-
 
 export default Contact
