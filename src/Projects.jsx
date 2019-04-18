@@ -46,16 +46,10 @@ class Projects extends Component {
         
         return (
             <div className="projects-box">
-            <div className="intro-wrapper">
-                <div className="illustration-wrapper">
-                <UndrawCreativity primaryColor='#019ebd'/>
-                </div>
-                <div className="text-wrapper">
-                    <h1 className="content-header">My Projects</h1>
-                    <p className="content-text">This is a selection of some of my projects I have been working on.</p>
-                </div>
-
-            </div>
+                <>
+                    <h1 className="content-header">Web Development</h1>
+                    <p className="content-text">Software development as a craftmanship. Not much to talk about there, scroll down and find out yourself. GitHub links are there for the curious. Working software as a measure of progress and beautiful code for the joy of heart. I breathe test driven.</p>
+                </>
 
             <div className="project-list-wrapper">
                 {projectsList}

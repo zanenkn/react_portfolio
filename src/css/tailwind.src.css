@@ -93,7 +93,7 @@
 }
 
 .content-header {
-    @apply text-grey-dark leading-loose font-hairline text-2xl
+    @apply text-grey-dark leading-loose font-hairline text-2xl mt-8
 }
 
 .content-text {
@@ -111,7 +111,7 @@
 }
 
 .intro-wrapper {
-    @apply flex mb-4;
+    @apply flex mb-12;
 }
 
 .illustration-wrapper {
@@ -169,7 +169,7 @@
 
 
 .project-list-wrapper {
-    @apply flex flex-wrap;  
+    @apply mt-24 flex flex-wrap;  
 }
 
 
