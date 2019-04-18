@@ -3,7 +3,7 @@ import React from "react"
 const Contact = () => {
     return (
 
-        <div className="content-wrapper">
+        <div className="contact-box">
             <form name="contact" method="post">
               <input type="hidden" name="form-name" value="contact" />
               <p>

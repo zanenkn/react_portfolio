@@ -1,0 +1,1 @@
+document.getElementById("thankyou_message").innerHTML = "Thank you for your message!"
