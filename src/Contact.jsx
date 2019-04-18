@@ -1,28 +1,29 @@
 import React from "react"
+import NetlifyForm from 'react-netlify-form'
 
 const Contact = () => {
     return (
-
-        <div className="contact-box">
-
-            <form name="contact" method="post">
-              <input type="hidden" name="form-name" value="contact" />
-              <p>
-                <label>Your Name: <input type="text" name="name"/></label>
-              </p>
-              <p>
-                <label>Your Email: <input type="email" name="email"/></label>
-              </p>
-              <p>
-                <label>Message: <textarea name="message"></textarea></label>
-              </p>
-              <p>
-                <button type="submit">Send</button>
-              </p>
-            </form>
-
-        </div>      
-    )                
+    <NetlifyForm name='Contact Form'>
+        {({ error, success }) => (
+            <div>
+                {error &&
+                    <div>Your information was not sent. Please try again later.</div>
+                }
+                {success &&
+                    <div>Thank you for your message!</div>
+                }
+                {!success &&
+                    <div>
+                    <input type='text' name='Name' required />
+                    <input type='text' name='email' required />
+                    <textarea name='Message' required />
+                    <button>Submit</button>
+                    </div>
+                }
+            </div>
+        )}
+    </NetlifyForm>
+    )
 }
 
 
