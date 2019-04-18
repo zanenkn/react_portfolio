@@ -3,7 +3,7 @@ import NetlifyForm from 'react-netlify-form'
 
 const Contact = () => {
     return (
-    <NetlifyForm name='Contact Form'>
+    <NetlifyForm name='contact'>
         {({ error, success }) => (
             <div>
                 {error &&
@@ -14,12 +14,13 @@ const Contact = () => {
                 }
                 {!success &&
                     <div>
-                    <input type='text' name='Name' required />
-                    <input type='text' name='email' required />
-                    <textarea name='Message' required />
+                    <input type='text' name='name' required />
+                    <input type='email' name='email' required />
+                    <textarea name='message' required />
                     <button>Submit</button>
                     </div>
                 }
+
             </div>
         )}
     </NetlifyForm>
