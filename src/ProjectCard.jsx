@@ -19,9 +19,10 @@ const ProjectCard = (props) => {
             </div>
 
             <div className="button-wrapper">
-                <button className="button">
-                    Details
-                </button>
+                <a href={project.website} target="_blank" className="button">See website</a>
+
+                <a href={project.github} target="_blank" className="button">GitHub</a>
+
             </div>
 
         </div>

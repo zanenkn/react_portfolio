@@ -115,7 +115,7 @@
 }
 
 .illustration-wrapper {
-    @apply w-full flex justify-center;
+    @apply mx-auto h-full flex justify-center items-center;
 }
 
 .text-wrapper {
@@ -251,11 +251,11 @@
 }
 
 .button-wrapper {
-    @apply flex items-center justify-between leading-none p-8;
+    @apply flex leading-none p-6;
 }
 
 .button {
-    @apply bg-zanes text-white text-xs p-2 rounded-full;
+    @apply bg-zanes text-white text-xs p-2 mr-2 rounded-full no-underline;
 }
 
 .button:hover {
