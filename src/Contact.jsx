@@ -5,7 +5,7 @@ const Contact = () => {
     return (
     <NetlifyForm name='contact'>
         {({ error, success }) => (
-            <div>
+            <>
                 {error &&
                     <div>Your information was not sent. Please try again later.</div>
                 }
@@ -13,6 +13,7 @@ const Contact = () => {
                     <div>Thank you for your message!</div>
                 }
                 {!success &&
+                    
                     <div>
                         <input type='text' name='name' required />
                         <input type='email' name='email' required />
@@ -20,11 +21,10 @@ const Contact = () => {
                         <button>Submit</button>
                     </div>
                 }
-            </div>
+            </>
         )}
     </NetlifyForm>
     )
 }
-
 
 export default Contact
