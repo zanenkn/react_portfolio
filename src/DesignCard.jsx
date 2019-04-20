@@ -4,7 +4,7 @@ import './css/tailwind.css'
 const DesignCard = (props) => {
     let project = props.project
     return(
-        <div key={project.id} className="project-card-wrapper">
+        <div key={project.id}>
 
             <img src={project.image} className="project-card-img" style={{ height: '150 px', objectFit: 'cover' }} />
 

@@ -27,7 +27,7 @@ class Design extends Component {
         if(design.length>0) {
             designList = design.map(project => {
                 return (
-                    <div key={project.id} className="project-card-box-wrapper">
+                    <div key={project.id} className="project-card-wrapper">
                         <DesignCard project={project} />
                     </div>
                 )
@@ -35,18 +35,15 @@ class Design extends Component {
         }
         
         return (
-            <div className="projects-box">
-                <>
-                    <h1 className="content-header">Graphic design</h1>
-                    <p className="content-text">Starting off as an exclusively print focused graphic designer ten years ago and ending up passionate about all things digital and responsive. It's been a wild ride! Check out some of my favourite gigs.</p>
-                </>
+            <>
+                <h1 className="content-header">Graphic design</h1>
+                <p className="content-text">Starting off as an exclusively print focused graphic designer ten years ago and ending up passionate about all things digital and responsive. It's been a wild ride! Check out some of my favourite gigs.</p>
+            
 
                 <div className="project-list-wrapper">
                     {designList}
                 </div>
-                
-            </div>
-
+            </>
         )
     }
 };
