@@ -1,0 +1,18 @@
+[
+    {
+        "id": 2,
+        "dates": "Sep 2016 - present",
+        "company": "Lindex AB",
+        "website": "https://www.lindex.com",
+        "title": "Graphic Designer",
+        "description": "Lorem ipsum dolor"
+    },
+    {
+        "id": 1,
+        "dates": "Sep 2014 - Oct 2015",
+        "company": "Northern Ireland Civil Service",
+        "website": "https://www.northernireland.gov.uk/",
+        "title": "Graphic Designer",
+        "description": "Creating designs for both internal and external materials, working together with internal communication team on infographics and other materials for corporate intranet, working on brand and guidelines for Welfare Reform."
+    }
+]

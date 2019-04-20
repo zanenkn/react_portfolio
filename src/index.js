@@ -8,6 +8,7 @@ import { BrowserRouter } from "react-router-dom"
 import About from "./About"
 import Projects from "./Projects"
 import Design from "./Design"
+import Cv from "./Cv"
 import Contact from "./Contact"
 import { Switch, Route } from "react-router-dom"
 
@@ -22,6 +23,7 @@ const App = () => {
                         <Route exact path='/about' component={About}></Route>
                         <Route exact path='/projects' component={Projects}></Route>
                         <Route exact path='/design' component={Design}></Route>
+                        <Route exact path='/cv' component={Cv}></Route>
                         <Route exact path='/contact' component={Contact}></Route>
                     </Switch>
                 </div>
