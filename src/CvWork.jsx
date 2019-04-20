@@ -5,21 +5,17 @@ import './css/tailwind.css'
 const Work = (props) => {
     let work = props.work
     return(
-        <div key={work.id}>
+        <div key={work.id} className="cv-section-wrapper">
 
-            <>
-                {work.title}
-                {work.company}
-
-            </>
+            <div className="cv-title">{work.title}</div>
+            <div className="cv-job">
+                <a href={work.website} target="_blank" className="content-link">{work.company}</a>
+                <p className="content-text">{work.dates}</p>
+            </div>
                 
-            <>
-                {work.description}
-            </>
-
-            <>
-                {work.dates}
-            </>
+            <div className="cv-description">
+                <div className="content-text">{work.description}</div>    
+            </div>
 
         </div>
     )
@@ -58,6 +54,7 @@ class WorkList extends Component {
         
         return (
             <>
+            <div className="cv-section-title">Work experience</div>
             {workList}    
             </>
         )

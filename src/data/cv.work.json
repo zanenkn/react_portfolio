@@ -1,18 +1,50 @@
 [
     {
-        "id": 2,
-        "dates": "Sep 2016 - present",
+        "id": 6,
+        "dates": "September 2016 - present",
         "company": "Lindex AB",
         "website": "https://www.lindex.com",
-        "title": "Graphic Designer",
-        "description": "Lorem ipsum dolor"
+        "title": "Graphic designer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+        "id": 5,
+        "dates": "September 2014 - October 2015",
+        "company": "Northern Ireland Civil Service",
+        "website": "https://www.northernireland.gov.uk/",
+        "title": "Graphic designer",
+        "description": "Creating designs for both internal and external materials, working together with internal communication team on infographics and other materials for corporate intranet, working on brand and guidelines for Welfare Reform."
+    },
+    {
+        "id": 4,
+        "dates": "2010 - 2014",
+        "company": "",
+        "website": "",
+        "title": "Freelance graphic designer",
+        "description": "Independent project management, creating designs, preparing  les for printing, cooperation with printing houses and agencies."
+    },
+    {
+        "id": 3,
+        "dates": "March 2009 - March 2010",
+        "company": "Poligrāfijas aģentūra Ltd",
+        "website": "http://www.poligrafijas-agentura.lv/",
+        "title": "Graphic designer",
+        "description": "Creating designs for printed materials, retouch."
+    },
+    {
+        "id": 2,
+        "dates": "April 2007 - February 2009",
+        "company": "Mc Ābols, printing house",
+        "website": "http://www.mcabols.lv/",
+        "title": "Graphic designer",
+        "description": "Creating designs for printed materials, preparing files for printing, cooperation with printing house, work with clients."
     },
     {
         "id": 1,
-        "dates": "Sep 2014 - Oct 2015",
-        "company": "Northern Ireland Civil Service",
-        "website": "https://www.northernireland.gov.uk/",
-        "title": "Graphic Designer",
-        "description": "Creating designs for both internal and external materials, working together with internal communication team on infographics and other materials for corporate intranet, working on brand and guidelines for Welfare Reform."
-    }
+        "dates": "April 2006 - April 2007",
+        "company": "Ventspils City Council, Tourism Department",
+        "website": "http://www.visitventspils.com",
+        "title": "Senior consultant",
+        "description": "Project manager, responsible for preparing and publishing maps, tourism brochures and other printed materials."
+    } 
 ]

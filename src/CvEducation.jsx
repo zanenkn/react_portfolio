@@ -5,21 +5,17 @@ import './css/tailwind.css'
 const Study = (props) => {
     let study = props.study
     return(
-        <div key={study.id}>
+        <div key={study.id} className="cv-section-wrapper">
 
-            <>
-                {study.subject}
-                {study.school}
-
-            </>
+            <div className="cv-title">{study.subject}</div>
+            <div className="cv-job">
+                <a href={study.website} target="_blank" className="content-link">{study.school}</a>
+                <p className="content-text">{study.dates}</p>
+            </div>
                 
-            <>
-                {study.description}
-            </>
-
-            <>
-                {study.dates}
-            </>
+            <div className="cv-description">
+                <div className="content-text">{study.description}</div>    
+            </div>
 
         </div>
     )
@@ -30,7 +26,7 @@ class StudyList extends Component {
         super();
         this.state={
             study: []
-        };
+        }
     }
 
     componentDidMount(){
@@ -54,15 +50,16 @@ class StudyList extends Component {
                     </div>
                 )
             })
-        };
+        }
         
         return (
             <>
+            <div className="cv-section-title">Education</div>
             {studyList}    
             </>
         )
     }
 
-};
+}
 
 export default StudyList

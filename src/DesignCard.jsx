@@ -9,7 +9,7 @@ const DesignCard = (props) => {
             <img src={project.image} className="project-card-img" style={{ height: '150 px', objectFit: 'cover' }} />
 
             <div className="project-card-text" style={{ minHeight: '150px' }}>
-                <div className="project-card-header">
+                <div className="blue-header">
                     {project.name}
                 </div>
                 
