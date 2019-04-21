@@ -31,7 +31,7 @@
 }
 
 .navlinks {
-    @apply text-white text-xs no-underline;
+    @apply text-white text-sm no-underline;
 }
 
 .navlinks:hover {
@@ -285,7 +285,7 @@
 }
 
 .cv-section-title {
-    @apply text-zanes font-hairline text-2xl mt-8 mb-6 
+    @apply text-zanes font-hairline text-2xl mb-6 
 }
 
 .cv-title {

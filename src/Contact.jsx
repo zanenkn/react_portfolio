@@ -31,7 +31,7 @@ const Contact = () => {
         
                     <UndrawMailSent
                         primaryColor='#019ebd'
-                        height= '250px'
+                        height= '200px'
                         />
                     </>
                 }
